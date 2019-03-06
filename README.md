@@ -112,7 +112,7 @@ format({
 // => "The bitcoin cryptocurrency is priced at $3,800."
 ```
 
-This check is based off of `typeof`, so be aware of limitations.
+This check is based off of [`typeof`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof), so you should be aware of [its quirks](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#Additional_information).
 
 #### Named Transformers
 
