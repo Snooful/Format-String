@@ -78,7 +78,7 @@ format("How are you, {fullName}?", person);
 
 ### Transformers
 
-Transformers allow 
+Transformers allow values to be transformed (hence the name).
 
 To specify transformers, you must precede the formatted string with an object of transformers:
 
