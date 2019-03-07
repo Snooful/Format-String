@@ -43,6 +43,13 @@ format("You can get an award for placing in {0}, {1}, or {2}.", ...params);
 // => "You can get an award for placing in first, second, or third."
 ```
 
+Use explicit numbering when you want to refer to parameters in an irregular order:
+
+```js
+format("Begin on the count of three. {2}. {1}. {0}. Go!", "One", "Two", "Three");
+// => "Begin on the count of three. Three. Two. One. Go!"
+```
+
 Unlike the library this was based on, you can switch between types.
 
 ```js
