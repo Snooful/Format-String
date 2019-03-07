@@ -1,4 +1,9 @@
-# Format-String
+# Format String
+
+[![GitHub release](https://img.shields.io/github/release/Snooful/Format-String.svg?style=popout&label=github)](https://github.com/Snooful/Format-String/releases/latest)
+[![npm](https://img.shields.io/npm/v/@snooful/format-string.svg?style=popout&colorB=red)](https://www.npmjs.com/package/@snooful/format-string)
+[![Travis (.com)](https://img.shields.io/travis/com/Snooful/Format-String.svg?style=popout)](https://travis-ci.com/Snooful/Format-String)
+
 A Python-like string formatter.
 
 ## Documentation
