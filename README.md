@@ -17,7 +17,7 @@ The following three statements are equivalent:
 "The " + "Format-String" + " project is maintained by " + "haykam821" + "."
 
 // Template literals
-`The ${"Format-String"} project is maintained by ${"haykam821"}."
+`The ${"Format-String"} project is maintained by ${"haykam821"}.`
 
 // This library
 format("The {} project is maintained by {}.", "Format-String", "haykam821");
