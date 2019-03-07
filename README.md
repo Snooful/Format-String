@@ -6,6 +6,25 @@
 
 A Python-like string formatter.
 
+## Install
+
+Install with `npm`:
+
+    npm install @snooful/format-string
+
+## Usage
+
+Require the library:
+
+```js
+const { format } = require("@snooful/format-string");
+
+format("Give me a {}!", "donut");
+// => "Give me a donut!"
+```
+
+For more complex examples, see the Documentation section.
+
 ## Documentation
 
 ### Basic
