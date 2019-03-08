@@ -44,10 +44,12 @@ format("The {} project is maintained by {}.", "Format-String", "haykam821");
 // => "The Format-String project is maintained by haykam821."
 ```
 
-Here is the syntax for the `format` function:
+The `format` function is overloaded:
 
 ```js
-format(transformers?: object, string: string, ...values: any);
+format(string: string, ...values: any);
+format(transformers: object, string: string, ...values: any);
+format(opts: object);
 ```
 
 ### Numbering
